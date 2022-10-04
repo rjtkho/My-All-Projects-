@@ -1,0 +1,31 @@
+{
+  "name": "project-shopping-cart",
+  "version": "1.0.0",
+  "description": "Product-Management-Cart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgautam/project-shopping-cart.git"
+  },
+  "author": "Nishant Gautam, Nitin Sayshe, Rajat Khobragade, Rakesh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickgautam/project-shopping-cart/issues"
+  },
+  "homepage": "https://github.com/nickgautam/project-shopping-cart#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1181.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19"
+  }
+}
